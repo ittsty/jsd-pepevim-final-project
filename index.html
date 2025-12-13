@@ -8,15 +8,39 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-    <link href="style.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
       @theme {
         --font-mon: "Montserrat", sans-serif;
         --font-Nun: "Nunito", sans-serif;
+        --color-main: #a71b79;
       }
     </style>
   </head>
   <body>
+    <header class="w-full h-18 bg-main fixed shadow-md text-white flex justify-center">
+      <ul class="flex gap-4 justify-center items-center p-2 w-6/10 text-sm">
+        <li><img src="/src/img/logo-m.png" alt="icon" class="h-8 pr-8" /></li>
+        <li>HOME</li>
+        <li>COLLECTION</li>
+        <li>ABOUT US</li>
+        <li class="mr-auto">CONTACT</li>
+        <li><img src="/src/img/icon.png" alt="icon" class="h-8" /></li>
+        <li><img src="/src/img/icon.png" alt="icon" class="h-8" /></li>
+      </ul>
+    </header>
+    <section class="Herosection">
+      <img src="/src/img/banner.png" alt="banner" class="h-180 w-screen">
+    </section>
+    <section class="Promotion relative flex h-120 ">
+      <img src="/src/img/promotion.webp" alt="" class="mr-30 h-full absolute -left-80">
+      <div class="bg-main text-white  w-7/10 h-130 shadow-md bg-amber-100 absolute -top-10 right-0 [clip-path:polygon(20%_0%,100%_0%,100%_100%,0_100%)] flex flex-col justify-center items-end p-16 gap-4">
+        <h1 class="text-5xl font-bold">Special Limited Collection</h1>
+        <h2 class="text-3xl font-bold">xxxxxxx Collecttion</h2>
+        <h2 class="text-3xl font-semibold pt-40">3/2 - 12/12 only</h2>
+        <button class="bg-white text-main py-4 px-14 w-60 text-md bottom-2 -right-6 text-left font-semibold hover:bg-gray-200 hover:cursor-pointer">→ See it first</button>
+      </div>
+    </section>
   </body>
 </html>

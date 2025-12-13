@@ -1,3 +1,7 @@
-:root{
-    font-family: "Montserrat" sans-serif;
+@import "tailwindcss";
+
+li{
+}
+li:hover{
+    cursor: pointer;
 }
