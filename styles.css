@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
-li{
+body{
+    font-family: "Montserrat", sans-serif;
 }
+
 li:hover{
     cursor: pointer;
 }
