@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-montserrat: "Montserrat", sans-serif;
+        --font-nunito: "Nunito", sans-serif;
+        --font-nunito-sans: "Nunito Sans", sans-serif;
+        --font-sekuya: "Sekuya", sans-serif;
+        --color-main: #a71b79;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="w-full h-18 bg-main fixed shadow-md text-white flex justify-center z-1"
+    >
+      <ul class="flex gap-4 justify-center items-center p-2 w-6/10 text-sm">
+        <li>
+          <img
+            src="/src/img/logo-m.png"
+            alt="icon"
+            class="h-8 w-auto aspect-auto pr-8"
+          />
+        </li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="product.html">COLLECTION</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li class="mr-auto"><a href="contact.html">CONTACT</a></li>
+        <li><a href="index.html"><img src="/src/img/icon.png" alt="icon" class="h-8" /></a></li>
+        <li><a href="index.html"><img src="/src/img/icon.png" alt="icon" class="h-8" /></a></li>
+      </ul>
+    </header>
+    <h1>Product</h1>
+  </body>
+</html>
